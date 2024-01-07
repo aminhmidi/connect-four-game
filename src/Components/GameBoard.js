@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import GameCirlce from "./GameCirlce";
 import "../Game.css";
+import Header from "./Header";
+import Footer from "./Footer";
+import { isWinner } from "../helper";
 
 const NUM_CIRCLES = 16;
 const NO_PLAYER = 0;
@@ -20,6 +23,9 @@ const GameBoard = () => {
   };
   const circleClicked = (id) => {
     console.log("circle clicke :" + id);
+    if (isWinner(gameBoard, id, currentPlayer)) {
+      console.log("WINNER");
+    }
     setGameBoard((prev) => {
       return prev.map((circle, pos) => {
         if (pos === id) return currentPlayer;
@@ -40,7 +46,13 @@ const GameBoard = () => {
       />
     );
   };
-  return <div className="gameboard">{initBoard()}</div>;
+  return (
+    <>
+      <Header player={currentPlayer} />
+      <div className="gameboard">{initBoard()}</div>
+      <Footer />
+    </>
+  );
 };
 
 export default GameBoard;
