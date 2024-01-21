@@ -1,7 +1,7 @@
-<h1>Gameplay</h1>
+## Gameplay 
 Connect four of your game pieces vertically, horizontally, or diagonally before the other player do so.
 
-<h1>Developing</h1>
+## Developing
 <ol>
 <li>Fork and clone this repository</li>
 <li>Install dependencies</li>
