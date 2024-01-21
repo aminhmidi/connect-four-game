@@ -3,6 +3,10 @@
 ## Gameplay 
 _Connect four_ of your game pieces vertically, horizontally, or diagonally before the other player do so.
 
+## Play
+
+- [aminhmidi.github.io/connect-four-game](https://aminhmidi.github.io/connect-four-game/)
+
 ## Developing
 
 1. Fork and clone this repository
