@@ -1,11 +1,17 @@
+# Project : React Connect 4 Game
+
 ## Gameplay 
-Connect four of your game pieces vertically, horizontally, or diagonally before the other player do so.
+_Connect four_ of your game pieces vertically, horizontally, or diagonally before the other player do so.
 
 ## Developing
-<ol>
-<li>Fork and clone this repository</li>
-<li>Install dependencies</li>
-**npm install**
-<li>Start local development server</li>
-**npm start**
-<li>Test it out at http://localhost:3000/ </li>
+
+1. Fork and clone this repository
+2. Install dependencies
+```
+npm install
+```
+3. Start local development server
+```
+npm start
+```
+4. Test it out at http://localhost:3000/
