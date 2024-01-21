@@ -46,12 +46,11 @@ body {
 .footer button {
   text-align: center;
   margin-top: 15px;
-  margin-left: 5px;
+  margin-left: 77px;
   width: 140px;
   height: 50px;
   background-color: AntiqueWhite;
   font-size: 20px;
-
   border: 5px solid Peru;
   font-weight: bold;
 }
